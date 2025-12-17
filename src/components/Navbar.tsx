@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { FiMenu, FiX } from 'react-icons/fi';
 
+// Navigation links
 const navLinks = [
   { href: '/', label: 'Home' },
   { href: '/about', label: 'About Us' },

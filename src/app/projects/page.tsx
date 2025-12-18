@@ -9,7 +9,7 @@ export default function Projects() {
       <Banner
         title="Projects"
         subtitle="Explore our featured projects"
-        imageUrl="/banner_pages.webp"
+        imageUrl="/banner-pages.webp"
         height={300}
       />
       <main className="max-w-400 mx-auto px-6 py-12">

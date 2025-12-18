@@ -9,7 +9,7 @@ export default function Services() {
       <Banner
         title="Services"
         subtitle="All the services we offer"
-        imageUrl="/banner_pages.webp"
+        imageUrl="/banner-pages.webp"
         height={300}
       />
       <main className="max-w-375 mx-auto px-6 py-12">

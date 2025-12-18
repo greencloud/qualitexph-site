@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "QualiTex",
-  description: "The quick brown fox jumps over the lazy dog.",
+  title: "QualiTex Management Consultancy",
+  description: "",
 };
 
 export default function RootLayout({

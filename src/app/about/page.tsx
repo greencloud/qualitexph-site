@@ -9,7 +9,7 @@ export default function About() {
       <Banner
         title="About Us"
         subtitle="Who we are and what we do best"
-        imageUrl="/banner_pages.webp"
+        imageUrl="/banner-pages.webp"
         height={300}
       />
       <main className="max-w-375 mx-auto px-6 py-12">

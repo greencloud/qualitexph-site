@@ -9,8 +9,8 @@ export const siteConfig = {
     main_office_short: 'San Pedro City, Laguna, PH'
   },
   social: {
-    facebook: 'https://www.facebook.com',
-    linkedin: 'https://linkedin.com',
+    facebook: 'https://www.facebook.com/QualitEx-Management-Consultancy-1610762062538956/',
+    linkedin: 'https://www.linkedin.com/in/edison-pike-1a5a634b',
     youtube: 'https://youtube.com',
     twitter: 'https://twitter.com'
   },

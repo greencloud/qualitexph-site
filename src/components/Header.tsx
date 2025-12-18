@@ -38,10 +38,10 @@ const Header: React.FC = () => {
               <span className="font-semibold">Main Office: </span> {siteConfig.contact.main_office_short}</span>
           </div>
           <div className="w-1/2 text-right">
-            <Link href="{siteConfig.social.facebook}" target='_blank' className='ml-3.5' title='Facebook'><Facebook className="inline-block mr-1 text-white" size={18} /></Link>
-            <Link href="{siteConfig.social.linkedin}" target='_blank' className='ml-3.5' title='LinkedIn'><Linkedin className="inline-block mr-1 text-white" size={18} /></Link>
-            <Link href="{siteConfig.social.youtube}" target='_blank' className='ml-3.5' title='YouTube'><Youtube className="inline-block mr-1 text-white" size={18} /></Link>
-            <Link href="{siteConfig.social.twitter}" target='_blank' className='ml-3.5' title='Twitter'><Twitter className="inline-block mr-1 text-white" size={18} /></Link>
+            <Link href={siteConfig.social.facebook} target='_blank' className='ml-3.5' title='Facebook'><Facebook className="inline-block mr-1 text-white" size={18} /></Link>
+            <Link href={siteConfig.social.linkedin} target='_blank' className='ml-3.5' title='LinkedIn'><Linkedin className="inline-block mr-1 text-white" size={18} /></Link>
+            <Link href={siteConfig.social.youtube} target='_blank' className='ml-3.5' title='YouTube'><Youtube className="inline-block mr-1 text-white" size={18} /></Link>
+            <Link href={siteConfig.social.twitter} target='_blank' className='ml-3.5' title='Twitter'><Twitter className="inline-block mr-1 text-white" size={18} /></Link>
           </div>
         </div>
       </div>

@@ -4,16 +4,16 @@ const Footer: React.FC = () => (
   <footer className="w-full qt-footer">
 
     <div className="qt-footer-nav py-4 mt-12 mb-5">
-      <div className="max-w-375 text-white overflow-hidden mx-auto flex flex-wrap justify-center">
-        <div className="w-1/3 p-6">
+      <div className="max-w-375 text-white overflow-hidden mx-auto flex flex-col md:flex-row justify-between">
+        <div className="w-full md:w-1/3 p-6">
           <h3 className="text-2xl mb-4 font-semibold">Quisque porttitor leo sed</h3>
           <p>Vestibulum euismod, felis et tincidunt euismod, neque sem tincidunt metus, eu cursus nisl est eu mi. Phasellus sodales leo urna, quis mattis ante volutpat id. Proin gravida eleifend tempor. Phasellus euismod ipsum nisi, accumsan efficitur magna tristique sed. Phasellus malesuada nisi lorem, a dapibus neque sagittis vitae. Pellentesque gravida, leo a tincidunt.</p>
         </div>
-        <div className="w-1/3 p-6">
+        <div className="w-full md:w-1/3 p-6">
           <h3 className="text-2xl mb-4 font-semibold">Phasellus sodales leo urna</h3>
           <p>Vestibulum euismod, felis et tincidunt euismod, neque sem tincidunt metus, eu cursus nisl est eu mi. Phasellus sodales leo urna, quis mattis ante volutpat id. Proin gravida eleifend tempor. Phasellus euismod ipsum nisi, accumsan efficitur magna tristique sed. Phasellus malesuada nisi lorem, a dapibus neque sagittis vitae. Pellentesque gravida, leo a tincidunt.</p>
         </div>
-        <div className="w-1/3 p-6">
+        <div className="w-full md:w-1/3 p-6">
           <h3 className="text-2xl mb-4 font-semibold">Pellentesque gravida</h3>
           <p>Vestibulum euismod, felis et tincidunt euismod, neque sem tincidunt metus, eu cursus nisl est eu mi. Phasellus sodales leo urna, quis mattis ante volutpat id. Proin gravida eleifend tempor. Phasellus euismod ipsum nisi, accumsan efficitur magna tristique sed. Phasellus malesuada nisi lorem, a dapibus neque sagittis vitae. Pellentesque gravida, leo a tincidunt.</p>
         </div>

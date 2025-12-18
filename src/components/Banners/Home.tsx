@@ -27,7 +27,7 @@ const Banner: React.FC<BannerProps> = ({ title, subtitle, imageUrl, height = 300
         <div>
           <p className="text-2xl semibold drow-shadow-lg mb-8">The leap that strengthens trust and credibility</p>
 
-          <h1 className="text-8xl md:text-5xl font-serif font-bold drop-shadow-lg mb-6">{title}</h1>
+          <h1 className="text-4xl md:text-5xl font-serif font-bold drop-shadow-lg mb-6">{title}</h1>
           {subtitle && <p className="text-md md:text-md drop-shadow-lg">{subtitle}</p>}
 
           <p>With cyber-crime on the rise and new threats constantly emerging, it can seem difficult or even impossible to manage cyber-risks. ISO/IEC 27001 helps organizations become risk-aware and proactively identify and address weaknesses.</p>

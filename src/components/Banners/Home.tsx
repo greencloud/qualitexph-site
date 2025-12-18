@@ -18,7 +18,8 @@ const Banner: React.FC<BannerProps> = ({ title, subtitle, imageUrl, height = 300
       src={imageUrl}
       alt={title}
       fill
-      className="object-cover z-1"
+      className="object-cover z-10"
+      unoptimized
       priority
     />
     <div className="max-w-300 mx-auto absolute inset-0 bg-black-400 z-10 flex flex-col justify-center text-white px-4">

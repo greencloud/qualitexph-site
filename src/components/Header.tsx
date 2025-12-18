@@ -4,6 +4,7 @@ import Navbar from './Navbar';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Phone, Mail, MapPin, Facebook, Linkedin, Youtube, Twitter } from 'lucide-react';
+import { siteConfig } from '@/config/site';
 
 const HEADER_HEIGHT = 80;
 const HEADER_HEIGHT_SCROLLED = 70;
@@ -26,21 +27,21 @@ const Header: React.FC = () => {
           <div className="w-1/2">
             <span className="mr-5">
               <Phone className="inline-block mr-1 text-(--pale-red-orange)" size={16} />
-              <span className="font-semibold">Call: </span> (02) 805 4757
+              <span className="font-semibold">Call: </span> {siteConfig.contact.phone}
             </span>
             <span className="mr-5">
               <Mail className="inline-block mr-1 text-(--pale-red-orange)" size={16} />
-              <span className="font-semibold">Email: </span> info@qualitexph.com
+              <span className="font-semibold">Email: </span> {siteConfig.contact.email}
             </span>
             <span className="mr-5">
               <MapPin className="inline-block mr-1 text-(--pale-red-orange)" size={16} />
-              <span className="font-semibold">Main Office: </span> San Pedro, Laguna</span>
+              <span className="font-semibold">Main Office: </span> {siteConfig.contact.main_office_short}</span>
           </div>
           <div className="w-1/2 text-right">
-            <Link href="https://www.facebook.com/qualitexph/" target='_blank' className='ml-3.5' title='Facebook'><Facebook className="inline-block mr-1 text-white" size={18} /></Link>
-            <Link href="https://www.linkedin.com/company/qualitexph/" target='_blank' className='ml-3.5' title='LinkedIn'><Linkedin className="inline-block mr-1 text-white" size={18} /></Link>
-            <Link href="https://www.youtube.com/@qualitexph" target='_blank' className='ml-3.5' title='YouTube'><Youtube className="inline-block mr-1 text-white" size={18} /></Link>
-            <Link href="https://twitter.com/qualitexph" target='_blank' className='ml-3.5' title='Twitter'><Twitter className="inline-block mr-1 text-white" size={18} /></Link>
+            <Link href="{siteConfig.social.facebook}" target='_blank' className='ml-3.5' title='Facebook'><Facebook className="inline-block mr-1 text-white" size={18} /></Link>
+            <Link href="{siteConfig.social.linkedin}" target='_blank' className='ml-3.5' title='LinkedIn'><Linkedin className="inline-block mr-1 text-white" size={18} /></Link>
+            <Link href="{siteConfig.social.youtube}" target='_blank' className='ml-3.5' title='YouTube'><Youtube className="inline-block mr-1 text-white" size={18} /></Link>
+            <Link href="{siteConfig.social.twitter}" target='_blank' className='ml-3.5' title='Twitter'><Twitter className="inline-block mr-1 text-white" size={18} /></Link>
           </div>
         </div>
       </div>

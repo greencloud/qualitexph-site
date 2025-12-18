@@ -1,4 +1,5 @@
 import React from 'react';
+import { siteConfig } from '@/config/site';
 
 const Footer: React.FC = () => (
   <footer className="w-full qt-footer">
@@ -21,7 +22,7 @@ const Footer: React.FC = () => (
     </div>
 
     <div className="max-w-375 mx-auto px-6 pb-5 text-gray-700 flex flex-col md:flex-row justify-between items-center">
-      <span className="">&copy; {new Date().getFullYear()} QualiTex. All rights reserved.</span>
+      <span className="">&copy; {new Date().getFullYear()} {siteConfig.brand}. All rights reserved.</span>
       <span className="text-sm mt-2 md:mt-0">Designed and Powered by <a href="https://www.sectorzlabs.com" target="_blank" rel="noopener noreferrer">Sector-Z Labs</a>.</span>
     </div>
 

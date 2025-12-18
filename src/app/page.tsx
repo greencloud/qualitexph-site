@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <Header />
       <Banner
-        title="Become an ISO/IEC 27001 Certified"
+        title="Become ISO/IEC 27001 Certified"
         subtitle="ISO/IEC 27001 is the world's best-known standard for information security management systems (ISMS). It defines requirements an ISMS must meet."
         imageUrl="https://res.cloudinary.com/dc2xfaobx/image/upload/f_auto,q_auto/v1766061567/banner-main_fsf1es.webp"
         height={680}

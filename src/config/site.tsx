@@ -5,7 +5,7 @@ export const siteConfig = {
   contact: {
     phone: '(02) 805 4757',
     email: 'info@qualitexph.com',
-    main_office: '',
+    main_office: 'B3 L97 Ostini St., Camella Milan, San Pedro City, Laguna, PH',
     main_office_short: 'San Pedro City, Laguna, PH'
   },
   social: {

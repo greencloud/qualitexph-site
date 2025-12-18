@@ -3,7 +3,7 @@ export const siteConfig = {
   title: 'QualitEx Management Consultancy',
   description: '',
   contact: {
-    phone: '(02) 805 4757',
+    phone: '(+632) 805-4757',
     email: 'info@qualitexph.com',
     main_office: 'B3 L97 Ostini St., Camella Milan, San Pedro City, Laguna, PH',
     main_office_short: 'San Pedro City, Laguna, PH'

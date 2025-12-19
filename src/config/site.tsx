@@ -1,7 +1,11 @@
+import { getBaseUrl } from "@/utils/baseUrl";
+
 export const siteConfig = {
+  base_url: getBaseUrl() || process.env.NEXT_PUBLIC_BASE_URL,
   brand: 'QualitEx',
   title: 'QualitEx Management Consultancy',
-  description: '',
+  description: 'QualitEx helps Philippine businesses achieve global success with expert management system consulting, boosting quality, speed, and efficiency.',
+  keywords: 'QualitEx, management consulting Philippines, ISO consulting, business excellence, quality management systems, global competitiveness, organizational development, process improvement, corporate consulting, service excellence',
   contact: {
     phone: '(+632) 805-4757',
     email: 'info@qualitexph.com',

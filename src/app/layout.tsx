@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Libre_Baskerville } from "next/font/google";
 import "./globals.css";
+import { siteConfig } from '@/config/site';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -20,8 +21,31 @@ const baskerville = Libre_Baskerville({
 });
 
 export const metadata: Metadata = {
-  title: "QualiTex Management Consultancy",
-  description: "",
+  title: siteConfig.title,
+  description: siteConfig.description,
+  keywords: siteConfig.keywords,
+  openGraph: {
+    title: siteConfig.title,
+    description: siteConfig.description,
+    url: siteConfig.base_url,
+    siteName: siteConfig.brand,
+    images: [
+      {
+        url: '/opengraph.jpg',
+        width: 1200,
+        height: 630,
+        alt: siteConfig.brand,
+      },
+    ],
+    locale: 'en_PH',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+  },
+  icons: {
+    icon: '/favicon.ico',
+  }
 };
 
 export default function RootLayout({

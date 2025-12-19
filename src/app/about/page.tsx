@@ -40,7 +40,7 @@ export default function About() {
         <p className="text-md">Etiam ultricies magna erat, at suscipit metus porta interdum. Proin volutpat scelerisque lacus lobortis commodo. Curabitur egestas iaculis fermentum. Mauris auctor sapien a nulla facilisis, at mollis lacus imperdiet. Quisque quis congue nisl. Donec lacinia ipsum turpis, sed placerat ligula mollis nec. Ut dapibus, lorem sit amet auctor hendrerit, enim nulla laoreet nulla, a commodo quam diam pretium mauris. Phasellus ut nulla lorem.</p>
 
         <div className="flex flex-col md:flex-row gap-8 mt-8">
-          <div className="w-full mb-8 border border-gray-300 p-5">
+          <div className="w-full mb-8 border border-gray-300 p-5 shadow-md hover:shadow-xl transition-shadow duration-300">
             <Image
               src="/personnel/sample1.webp"
               alt="Our Mission"
@@ -52,7 +52,7 @@ export default function About() {
             <p className="text-md">Chief Executive Officer</p>
             <p><i>When he's not working, he enjoys mountain climbing and spending quality time with his one and only child.</i></p>
           </div>
-          <div className="w-full mb-8 border border-gray-300 p-5">
+          <div className="w-full mb-8 border border-gray-300 p-5 shadow-md hover:shadow-xl transition-shadow duration-300">
             <Image
               src="/personnel/sample2.webp"
               alt="Our Vision"
@@ -64,7 +64,7 @@ export default function About() {
             <p className="text-md">Chief Operating Officer</p>
             <p><i>In her free time, she loves painting and taking long walks in the park to recharge her creativity.</i></p>
           </div>
-          <div className="w-full mb-8 border border-gray-300 p-5">
+          <div className="w-full mb-8 border border-gray-300 p-5 shadow-md hover:shadow-xl transition-shadow duration-300">
             <Image
               src="/personnel/sample3.webp"
               alt="Our Vision"
@@ -76,7 +76,7 @@ export default function About() {
             <p className="text-md">Chief Financial Officer</p>
             <p><i>When she's off the clock, she can be found exploring new recipes or curled up with a good book.</i></p>
           </div>
-          <div className="w-full mb-8 border border-gray-300 p-5">
+          <div className="w-full mb-8 border border-gray-300 p-5 shadow-md hover:shadow-xl transition-shadow duration-300">
             <Image
               src="/personnel/sample4.webp"
               alt="Our Vision"

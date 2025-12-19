@@ -9,7 +9,7 @@ export default function Contact() {
       <Header />
       <Banner
         title="Contact Us"
-        subtitle=""
+        subtitle="Reach out, we are here to help"
         imageUrl="/banner-pages.webp"
         height={300}
       />

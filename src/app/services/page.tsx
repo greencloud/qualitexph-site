@@ -9,7 +9,7 @@ export default function Services() {
       <Header />
       <Banner
         title="Services"
-        subtitle="All the services we offer"
+        subtitle="Solutions tailored to your needs"
         imageUrl="/banner-pages.webp"
         height={300}
       />

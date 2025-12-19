@@ -9,7 +9,7 @@ export default function Milestone() {
       <Header />
       <Banner
         title="Milestone"
-        subtitle="Our journey and achievements"
+        subtitle="Our journey, focused on delivering value to you"
         imageUrl="/banner-pages.webp"
         height={300}
       />

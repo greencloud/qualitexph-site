@@ -21,7 +21,7 @@ const Banner: React.FC<BannerProps> = ({ title, subtitle, imageUrl, height = 300
       priority
     />
     <div className="absolute inset-0 bg-black-400 z-10 flex flex-col items-center justify-center text-center text-white px-4">
-      <h1 className="text-4xl md:text-5xl font-bold drop-shadow-lg mb-2">{title}</h1>
+      <h1 className="text-4xl md:text-5xl font-(family-name:--font-baskerville) font-bold drop-shadow-lg mb-2">{title}</h1>
       {subtitle && <p className="text-lg md:text-2xl drop-shadow-lg">{subtitle}</p>}
     </div>
   </div>

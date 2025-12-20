@@ -1,8 +1,23 @@
+'use client';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Banner from '@/components/Banners/Pages';
 import Image from 'next/image';
 import { siteConfig } from '@/config/site';
+
+const industry = [
+  { src: '/industries/semiconductor.webp', alt: 'Semiconductor & Electronics' },
+  { src: '/industries/automotive.webp', alt: 'Automotive' },
+  { src: '/industries/med-devices.webp', alt: 'Medical Devices' },
+  { src: '/industries/eng-const.webp', alt: 'Engineering/ Construction' },
+  { src: '/industries/info-tech.webp', alt: 'Information Technology' },
+  { src: '/industries/business-services.webp', alt: 'Business Services' },
+  { src: '/industries/food.webp', alt: 'Food Safety' },
+  { src: '/industries/school.webp', alt: 'School & Training Centers' },
+  { src: '/industries/health-med.webp', alt: 'Health & Medical Industry' },
+  { src: '/industries/government.webp', alt: 'Government Support' },
+];
+
 
 export default function About() {
   return (
@@ -15,7 +30,9 @@ export default function About() {
         height={300}
       />
       <main className="max-w-375 mx-auto px-6 py-12">
-        <div className="flex flex-col md:flex-row md:gap-8 mb-8">
+
+        {/* About the Company */}
+        <div className="flex flex-col md:flex-row md:gap-8 mb-12 mt-12">
           <div className="w-full md:w-1/4">
             <Image
               src="/about-us.webp"
@@ -35,7 +52,50 @@ export default function About() {
             <p className="text-md">{siteConfig.brand} is a leader, customer focused consulting company, well admired by its clients, and a benchmark of speed, flexibility and consistency among all the business and management consulting firms in the Philippines.</p>
           </div>
         </div>
+      </main>
 
+      {/* Why Choose Us */}
+      <div className="bg-gray-100 py-12">
+        <main className="max-w-375 mx-auto px-6 py-12 text-center">
+          <h2 className="text-4xl font-(family-name:--font-baskerville) font-bold mb-4">Why Choose {siteConfig.brand}?</h2>
+          <p className="text-lg mb-12">For more than 25 years we have operated across a wide range of industry sectors.</p>
+          <div className="flex flex-wrap md:flex-row items-center justify-center gap-8 mt-12">
+            {industry.map((image, index) => (
+              <div
+                key={index}
+                className="
+                  md:w-1/4
+                  lg:w-1/5
+                  flex
+                  flex-col
+                  items-center
+                  text-center
+                  overflow-hidden
+                  transition-transform
+                  duration-300
+                  hover:scale-[1.05]
+                  relative
+                  w-37.5
+                  sm:w-43.75"
+              >
+                <Image
+                  src={image.src}
+                  alt={image.alt}
+                  height={175}
+                  width={175}
+                  sizes="(max-width: 640px) 150px, 175px"
+                  className="object-contain mb-4 shadow-lg rounded-full"
+                  priority={index < 2}
+                />
+                <span className="w-full block bg-[#B5B2C233] text-blue-950 font-semibold px-5 py-2 rounded shadow-lg">{image.alt}</span>
+              </div>
+            ))}
+          </div>
+        </main>
+      </div>
+
+      {/* Our Team */}
+      <main className="max-w-375 mx-auto px-6 py-12">
         <h2 className="text-3xl font-bold mb-4">Meet Our Dedicated Team</h2>
         <p className="text-md">Etiam ultricies magna erat, at suscipit metus porta interdum. Proin volutpat scelerisque lacus lobortis commodo. Curabitur egestas iaculis fermentum. Mauris auctor sapien a nulla facilisis, at mollis lacus imperdiet. Quisque quis congue nisl. Donec lacinia ipsum turpis, sed placerat ligula mollis nec. Ut dapibus, lorem sit amet auctor hendrerit, enim nulla laoreet nulla, a commodo quam diam pretium mauris. Phasellus ut nulla lorem.</p>
 

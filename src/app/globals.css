@@ -44,3 +44,7 @@ p {
   background: #476C9B;
   overflow: hidden;
 }
+
+.pause-animation {
+  animation: marquee-left 40s linear infinite;
+}

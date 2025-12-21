@@ -6,18 +6,17 @@ import Image from 'next/image';
 import { siteConfig } from '@/config/site';
 
 const industry = [
-  { src: '/industries/semiconductor.webp', alt: 'Semiconductor & Electronics' },
-  { src: '/industries/automotive.webp', alt: 'Automotive' },
-  { src: '/industries/med-devices.webp', alt: 'Medical Devices' },
-  { src: '/industries/eng-const.webp', alt: 'Engineering/ Construction' },
-  { src: '/industries/info-tech.webp', alt: 'Information Technology' },
-  { src: '/industries/business-services.webp', alt: 'Business Services' },
-  { src: '/industries/food.webp', alt: 'Food Safety' },
-  { src: '/industries/school.webp', alt: 'School & Training Centers' },
-  { src: '/industries/health-med.webp', alt: 'Health & Medical Industry' },
-  { src: '/industries/government.webp', alt: 'Government Support' },
+  { src: '/industries/semiconductor.png', alt: 'Semiconductor & Electronics' },
+  { src: '/industries/automotive.png', alt: 'Automotive' },
+  { src: '/industries/med-devices.png', alt: 'Medical Devices' },
+  { src: '/industries/eng-const.png', alt: 'Engineering/ Construction' },
+  { src: '/industries/info-tech.png', alt: 'Information Technology' },
+  { src: '/industries/business-services.png', alt: 'Business Services' },
+  { src: '/industries/food.png', alt: 'Food Safety' },
+  { src: '/industries/school.png', alt: 'School & Training Centers' },
+  { src: '/industries/health-med.png', alt: 'Health & Medical Industry' },
+  { src: '/industries/government.png', alt: 'Government Support' },
 ];
-
 
 export default function About() {
   return (
@@ -26,7 +25,7 @@ export default function About() {
       <Banner
         title="About Us"
         subtitle="Driven by your needs, guided by experience"
-        imageUrl="/banner-pages.webp"
+        imageUrl="/banner-pages.jpg"
         height={300}
       />
       <main className="max-w-375 mx-auto px-6 py-12">
@@ -35,7 +34,7 @@ export default function About() {
         <div className="flex flex-col md:flex-row md:gap-8 mb-12 mt-12">
           <div className="w-full md:w-1/4">
             <Image
-              src="/about-us.webp"
+              src="/about-us.jpg"
               alt="About Us"
               width={400}
               height={400}
@@ -43,7 +42,7 @@ export default function About() {
             />
           </div>
           <div className="w-full md:w-3/4">
-            <p className="text-md"><strong>{siteConfig.brand}</strong> was established in December 1999 in response to the growing pressures of globalization, particularly within the manufacturing and service industries. In the past, a company could feel secure if it was competitive in any one of these areas: cost and productivity, quality and service, or speed and flexibility. Today, long-term success requires excellence in all three. Businesses must deliver high-quality products, provide fast and responsive service, and do so at a relatively low cost.</p>
+            <p className="text-md"><strong>{siteConfig.title}</strong> was established in December 1999 in response to the growing pressures of globalization, particularly within the manufacturing and service industries. In the past, a company could feel secure if it was competitive in any one of these areas: cost and productivity, quality and service, or speed and flexibility. Today, long-term success requires excellence in all three. Businesses must deliver high-quality products, provide fast and responsive service, and do so at a relatively low cost.</p>
 
             <h3 className="text-2xl font-semibold mt-6 mb-4">Our Mission</h3>
             <p className="text-md">To assist and empower organizations in achieving global recognition and success, we provide comprehensive support in the design, development and implementation of various Management Systems based on international standards, tailored to meet their specific requirements. This approach enables them to effectively compete in a globalized market by: (1), Bridging the gap between theory and application, and (2), Integrating human and technological resources to balance individual and total system needs.</p>
@@ -102,7 +101,7 @@ export default function About() {
         <div className="flex flex-col md:flex-row gap-8 mt-8">
           <div className="w-full mb-8 border border-gray-300 p-5 shadow-md hover:shadow-xl transition-shadow duration-300">
             <Image
-              src="/personnel/sample1.webp"
+              src="/personnel/sample1.jpg"
               alt="Our Mission"
               width={400}
               height={400}
@@ -114,7 +113,7 @@ export default function About() {
           </div>
           <div className="w-full mb-8 border border-gray-300 p-5 shadow-md hover:shadow-xl transition-shadow duration-300">
             <Image
-              src="/personnel/sample2.webp"
+              src="/personnel/sample2.jpg"
               alt="Our Vision"
               width={400}
               height={400}
@@ -126,7 +125,7 @@ export default function About() {
           </div>
           <div className="w-full mb-8 border border-gray-300 p-5 shadow-md hover:shadow-xl transition-shadow duration-300">
             <Image
-              src="/personnel/sample3.webp"
+              src="/personnel/sample3.jpg"
               alt="Our Vision"
               width={400}
               height={400}
@@ -138,7 +137,7 @@ export default function About() {
           </div>
           <div className="w-full mb-8 border border-gray-300 p-5 shadow-md hover:shadow-xl transition-shadow duration-300">
             <Image
-              src="/personnel/sample4.webp"
+              src="/personnel/sample4.jpg"
               alt="Our Vision"
               width={400}
               height={400}

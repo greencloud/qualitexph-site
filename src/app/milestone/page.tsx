@@ -12,7 +12,7 @@ export default function Milestone() {
       <Banner
         title="Milestone"
         subtitle="Our journey, focused on delivering value to you"
-        imageUrl="/banner-pages.webp"
+        imageUrl="/banner-pages.jpg"
         height={300}
       />
       <main className="max-w-375 mx-auto px-6 py-12">
@@ -49,8 +49,6 @@ export default function Milestone() {
         </div>
 
         <BrandSlider />
-
-
 
         <h2 className="text-3xl font-bold mb-4">{siteConfig.brand} Milestone</h2>
         <p className="text-md">Discover the key milestones that have shaped QualiTexPH's growth and success. Fusce pulvinar purus sit amet ligula feugiat, eu viverra risus auctor. Aenean ac mattis augue. Mauris vulputate porta diam a faucibus. Suspendisse vitae risus sit amet tellus efficitur laoreet. Pellentesque vestibulum ligula eros, vitae porta nulla interdum id. Suspendisse condimentum, erat at hendrerit tincidunt, nisl odio sollicitudin orci, ac venenatis elit velit nec urna. Donec sit amet tristique dui. Morbi laoreet lorem a ligula aliquet, sollicitudin sollicitudin ex commodo. Maecenas metus nulla, aliquam et semper ut, porta a magna. Vivamus a ligula nec justo tincidunt dictum. Suspendisse massa sapien, cursus et porttitor ut, feugiat quis est. Phasellus a eros fermentum, vestibulum diam vitae, aliquam mi. Curabitur maximus fermentum eros ut aliquam. Nulla cursus scelerisque commodo.</p>

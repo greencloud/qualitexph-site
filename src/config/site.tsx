@@ -15,7 +15,7 @@ export const siteConfig = {
   social: {
     facebook: 'https://www.facebook.com/QualitEx-Management-Consultancy-1610762062538956/',
     linkedin: 'https://www.linkedin.com/in/edison-pike-1a5a634b',
-    youtube: 'https://youtube.com',
+    youtube: 'https://www.youtube.com/@qualitexph',
     twitter: 'https://twitter.com'
   },
 };

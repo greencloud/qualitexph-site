@@ -41,7 +41,7 @@ export default function Contact() {
       <Banner
         title="Contact Us"
         subtitle="Reach out, we are here to help"
-        imageUrl="/banner-pages.webp"
+        imageUrl="/banner-pages.jpg"
         height={300}
       />
       <main className="max-w-375 mx-auto px-6 py-12">

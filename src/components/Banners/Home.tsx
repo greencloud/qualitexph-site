@@ -11,9 +11,9 @@ interface BannerProps {
 
 const Banner: React.FC<BannerProps> = ({ title, subtitle, imageUrl, height = 680 }) => (
   <div className="w-full relative flex items-center justify-center h-auto md:h-170" style={{ height: `${height}px` }}>
+
     {/* Overlay for darkening the image */}
     <div className="absolute inset-0 bg-black opacity-40 z-5"></div>
-
     <Image
       src={imageUrl}
       alt={title}

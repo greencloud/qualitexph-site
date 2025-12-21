@@ -60,7 +60,6 @@ export default function BrandSlider() {
         ))}
       </div>
 
-
       {/* Modal */}
       {currentModal && (
         <div className="fixed inset-0 flex items-center justify-center bg-black/50 p-6">
@@ -79,7 +78,6 @@ export default function BrandSlider() {
         </div>
       )}
 
-
       {/* Left Arrow - decrease speed */}
       {isHovered && (
         <button
@@ -91,7 +89,6 @@ export default function BrandSlider() {
         </button>
       )}
 
-
       {/* Right Arrow - increase speed */}
       {isHovered && (
         <button
@@ -102,7 +99,6 @@ export default function BrandSlider() {
           ▶
         </button>
       )}
-
 
       {/* Tailwind CSS animation */}
       <style jsx>{`

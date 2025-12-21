@@ -53,10 +53,10 @@ const Header: React.FC = () => {
         <div className="max-w-375 mx-auto flex items-center justify-between h-full px-6">
           <div className="flex items-center gap-2">
             <Link href="/">
-              <Image src="/logo-128.webp" alt="QualiTexPH Logo" width={50} height={50} />
+              <Image src="/logo-128.png" alt={`${siteConfig.brand} Logo}`} width={50} height={50} />
             </Link>
             <Link href="/">
-              <Image src="/sitename.svg" alt="QualiTexPH Logo" width={150} height={0} />
+              <Image src="/sitename.svg" alt={`${siteConfig.brand} Logo}`} width={150} height={0} />
             </Link>
           </div>
           <Navbar />

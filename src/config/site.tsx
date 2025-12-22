@@ -9,8 +9,10 @@ export const siteConfig = {
   contact: {
     phone: '(+632) 805-4757',
     email: 'info@qualitexph.com',
-    main_office: 'B3 L97 Ostini St., Camella Milan, San Pedro City, Laguna, PH',
-    main_office_short: 'San Pedro City, Laguna, PH'
+    main_office: 'B3 L97 Ostini St., Camella Milan, San Pedro City, Laguna',
+    main_office_short: 'San Pedro City, Laguna',
+    cebu_office: 'M.L. Quezon St., Pajo, Lapu-Lapu City, Cebu',
+    cebu_office_short: 'Lapu-Lapu City, Cebu'
   },
   social: {
     facebook: 'https://www.facebook.com/QualitEx-Management-Consultancy-1610762062538956/',

@@ -13,7 +13,7 @@ export default function Milestone() {
         title="Milestone"
         subtitle="Our journey, focused on delivering value to you"
         imageUrl="/banner-pages.jpg"
-        height={300}
+        height={320}
       />
       <main className="max-w-375 mx-auto px-6 py-12">
         <div className="text-center mb-6 mt-10">

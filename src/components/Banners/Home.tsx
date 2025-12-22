@@ -22,7 +22,7 @@ const Banner: React.FC<BannerProps> = ({ title, subtitle, imageUrl, height = 680
       unoptimized
       priority
     />
-    <div className="max-w-300 mx-auto absolute inset-0 bg-black-400 z-10 flex flex-col justify-center text-white px-4">
+    <div className="max-w-315 mx-auto absolute inset-0 z-10 flex flex-col justify-center text-white px-4">
 
       <div className='w-full md:max-w-215 mx-auto md:mx-16 border-2 border-[#ffffff15] px-6 py-8 my-16'>
         <div>

@@ -227,4 +227,44 @@ export const brands: Brand[] = [
       "Provision of Cold Storage and Warehouse."
     ]
   },
+  {
+    id: "brand-23",
+    name: "Li Ming Technology Philippines",
+    logo: "/logos/li-ming.png",
+    header: "Li Ming Technology Philippines",
+    paragraphs: [
+      "Services: ISO 9001",
+      "Plastic Injection parts."
+    ]
+  },
+  {
+    id: "brand-24",
+    name: "FF Marine Corp.",
+    logo: "/logos/ff-marine.png",
+    header: "FF Marine Corp.",
+    paragraphs: [
+      "Services: ISO 9001",
+      "Provision of Dredging and Reclamation."
+    ]
+  },
+  {
+    id: "brand-25",
+    name: "M-PRO Construction",
+    logo: "/logos/m-pro.png",
+    header: "M-PRO Construction",
+    paragraphs: [
+      "Services: ISO 9001, Retainers",
+      "Engineering, Supply and Installation of Mechanical (Process Piping) and Electrical Works."
+    ]
+  },
+  {
+    id: "brand-26",
+    name: "International Electric Wires Phil. Corp.",
+    logo: "/logos/intl-elec-wires.png",
+    header: "International Electric Wires Phil. Corp.",
+    paragraphs: [
+      "Services: ISO 9001, ISO 14001, OHSAS 18001",
+      "Manufacture of Wire and Cable."
+    ]
+  },
 ];

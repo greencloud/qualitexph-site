@@ -26,7 +26,7 @@ export default function About() {
         title="About Us"
         subtitle="Driven by your needs, guided by experience"
         imageUrl="/banner-pages.jpg"
-        height={300}
+        height={320}
       />
       <main className="max-w-375 mx-auto px-6 py-12">
 

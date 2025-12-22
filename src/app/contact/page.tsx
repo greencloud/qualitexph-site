@@ -42,18 +42,21 @@ export default function Contact() {
         title="Contact Us"
         subtitle="Reach out, we are here to help"
         imageUrl="/banner-pages.jpg"
-        height={300}
+        height={320}
       />
       <main className="max-w-375 mx-auto px-6 py-12">
-        <div className="flex flex-col md:flex-row gap-8 mb-8">
+        <div className="flex flex-col md:flex-row gap-8">
           <div className="w-1/2 md:w-full">
-            <h2 className="text-md font-semibold">Main Office Address</h2>
+            <h2 className="text-md font-semibold">Main Office</h2>
             <p className="text-md">{siteConfig.contact.main_office}</p>
+
+            <h2 className="text-md font-semibold">Cebu Office</h2>
+            <p className="text-md">{siteConfig.contact.cebu_office}</p>
 
             <h2 className="text-md font-semibold">Telephone</h2>
             <p className="text-md">{siteConfig.contact.phone}</p>
 
-            <h2 className="text-md font-semibold">Email Address</h2>
+            <h2 className="text-md font-semibold">Email</h2>
             <p className="text-md">{siteConfig.contact.email}</p>
           </div>
 

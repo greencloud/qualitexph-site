@@ -19,11 +19,13 @@ export default function Services() {
         {/* Services Categories */}
         <div className="flex flex-col md:flex-row gap-10 my-12">
           <div className="w-full md:w-1/4 p-5 border border-gray-200 shadow-md hover:shadow-xl transition-shadow duration-300">
-            <div className="bg-gray-600 text-center text-2xl text-white p-5">Quality Standards</div>
+            <div className="bg-gray-600 p-5">
+              <h5 className="text-shadow-2xs text-2xl text-white text-shadow-black text-center">Quality Standards</h5>
+            </div>
             <div className="bg-gray-200 my-1">
               <Image
-                src="/srv-quality-standard.jpg"
-                alt=""
+                src="/srv-quality.jpg"
+                alt="Quality Standards"
                 width={380}
                 height={380}
                 className="w-full h-auto"
@@ -38,11 +40,13 @@ export default function Services() {
             </div>
           </div>
           <div className="w-full md:w-1/4 p-5 border border-gray-300 shadow-md hover:shadow-xl transition-shadow duration-300">
-            <div className="bg-gray-600 text-center text-2xl text-white p-5">Safety &amp; Health</div>
+            <div className="bg-gray-600 p-5">
+              <h5 className="text-shadow-2xs text-2xl text-white text-shadow-black text-center">Safety &amp; Health</h5>
+            </div>
             <div className="bg-gray-200 my-1">
               <Image
-                src="/srv-health-safety.jpg"
-                alt=""
+                src="/srv-health.jpg"
+                alt="Safety & Health"
                 width={380}
                 height={380}
                 className="w-full h-auto"
@@ -59,8 +63,8 @@ export default function Services() {
             <div className="bg-gray-600 text-center text-2xl text-white p-5">Food Safety Standards</div>
             <div className="bg-gray-200 my-1">
               <Image
-                src="/srv-quality-standard.jpg"
-                alt=""
+                src="/srv-food-safety.jpg"
+                alt="Food Safety Standards"
                 width={380}
                 height={380}
                 className="w-full h-auto"
@@ -78,7 +82,7 @@ export default function Services() {
             <div className="bg-gray-600 text-center text-2xl text-white p-5">Regulatory Standards</div>
             <div className="bg-gray-200 my-1">
               <Image
-                src="/srv-quality-standard.jpg"
+                src="/srv-regulatory.jpg"
                 alt=""
                 width={380}
                 height={380}
@@ -87,7 +91,7 @@ export default function Services() {
             </div>
             <div className="flex flex-col gap-5 bg-gray-100 p-5">
               <span><strong>SA 8000:</strong> Social Accountability 8000 &ndash; Social Responsibility Standard</span>
-              <span><strong>WRAP:</strong> Worldwide Responsible Accredited Production &nbsp; Social Compliance Certification Program</span>
+              <span><strong>WRAP:</strong> Worldwide Responsible Accredited Production &ndash; Social Compliance Certification Program</span>
               <span><strong>RoHS:</strong> Restriction of Hazardous Substances &ndash; Directive for Electrical and Electronic Equipment</span>
               <span><strong>IECQ 0800:</strong> IEC Quality Assessment System for Electronic Components &ndash; Requirements for Supplier Assessment</span>
               <span><strong>ISO 17025:</strong> General Requirements for the Competence of Testing and Calibration Laboratories</span>

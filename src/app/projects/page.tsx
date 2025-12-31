@@ -9,7 +9,7 @@ export default function Projects() {
       <Banner
         title="Projects"
         subtitle="Explore our featured projects"
-        imageUrl="/banner-pages.jpg"
+        imageUrl="https://res.cloudinary.com/dc2xfaobx/image/upload/v1767164166/banner-pages_zprf9f.jpg"
         height={320}
       />
       <main className="max-w-400 mx-auto px-6 py-12">

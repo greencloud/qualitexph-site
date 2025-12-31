@@ -41,7 +41,7 @@ export default function Contact() {
       <Banner
         title="Contact Us"
         subtitle="Reach out, we are here to help"
-        imageUrl="/banner-pages.jpg"
+        imageUrl="https://res.cloudinary.com/dc2xfaobx/image/upload/v1767164166/banner-pages_zprf9f.jpg"
         height={320}
       />
       <main className="max-w-375 mx-auto px-6 py-12">

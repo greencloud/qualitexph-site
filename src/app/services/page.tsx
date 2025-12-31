@@ -2,6 +2,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Banner from '@/components/Banners/Pages';
 import Image from 'next/image';
+import Link from 'next/link';
 import { siteConfig } from '@/config/site';
 
 export default function Services() {
@@ -16,10 +17,11 @@ export default function Services() {
       />
       <main className="max-w-375 mx-auto px-6 py-12">
 
-        <div className="text-center mb-10 mt-12">
-          <h2 className="text-6xl font-bold mb-4">ISO/IEC 27001:2022</h2>
-          <p className="text-2xl">Information security, cybersecurity and privacy protection &mdash; Information security management systems &mdash; Requirements</p>
-          <p className="text-2xl mb-8">With cyber-crime on the rise and <strong>new threats constantly emerging,</strong> it can seem difficult or even impossible to manage cyber-risks. ISO/IEC 27001 helps organizations become risk-aware and proactively identify and address weaknesses.</p>
+        <div className="text-center mb-10 mt-12 max-w-[75%] mx-auto">
+          <h2 className="text-5xl font-bold mb-4">ISO/IEC 27001:2022</h2>
+          <p className="text-lg">Information security, cybersecurity and privacy protection &mdash; Information security management systems &mdash; Requirements</p>
+          <p className="text-lg mb-8">With cyber-crime on the rise and <strong>new threats constantly emerging,</strong> it can seem difficult or even impossible to manage cyber-risks. ISO/IEC 27001 helps organizations become risk-aware and proactively identify and address weaknesses.</p>
+          <p className="m-0">&nbsp;</p>
         </div>
 
         {/* Services Categories */}
@@ -103,6 +105,16 @@ export default function Services() {
               <span><strong>ISO 17025:</strong> General Requirements for the Competence of Testing and Calibration Laboratories</span>
             </div>
           </div>
+        </div>
+
+        <div className="text-center my-12 mt-20">
+          <h2 className="text-4xl font-bold mb-4 mt-8 block">What's next?</h2>
+          <p className="text-lg">Are you having a hard time to decide what's in it for you? Our professional consultants are here to help you level up your organization.</p>
+          <Link
+            href="/contact" className="inline-flex items-center justify-center bg-blue-800 text-white px-7 py-2 rounded-md text-2xl hover:bg-blue-900 hover:text-white transition-colors cursor-pointer mt-5"
+          >
+            Contact Us Today
+          </Link>
         </div>
       </main>
       <Footer />

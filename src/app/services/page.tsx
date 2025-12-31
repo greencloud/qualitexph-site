@@ -16,6 +16,12 @@ export default function Services() {
       />
       <main className="max-w-375 mx-auto px-6 py-12">
 
+        <div className="text-center mb-10 mt-12">
+          <h2 className="text-6xl font-bold mb-4">ISO/IEC 27001:2022</h2>
+          <p className="text-2xl">Information security, cybersecurity and privacy protection &mdash; Information security management systems &mdash; Requirements</p>
+          <p className="text-2xl mb-8">With cyber-crime on the rise and <strong>new threats constantly emerging,</strong> it can seem difficult or even impossible to manage cyber-risks. ISO/IEC 27001 helps organizations become risk-aware and proactively identify and address weaknesses.</p>
+        </div>
+
         {/* Services Categories */}
         <div className="flex flex-col md:flex-row gap-10 my-12">
           <div className="w-full md:w-1/4 p-5 border border-gray-200 shadow-md hover:shadow-xl transition-shadow duration-300">
@@ -98,12 +104,6 @@ export default function Services() {
             </div>
           </div>
         </div>
-
-
-        <h2 className="text-3xl font-bold mb-4">Services</h2>
-        <p className="text-md">{siteConfig.brand} offers a wide range of textile services tailored to your needs.Vivamus sed dolor sed sem porta egestas. Praesent urna velit, vulputate in viverra a, dapibus vel orci. Cras accumsan, ex a iaculis lacinia, lacus orci congue neque, vel suscipit urna nunc vel arcu. Nunc ultricies facilisis placerat. Maecenas et venenatis nibh. Duis eu eros consectetur, porttitor urna vulputate, volutpat dolor. Etiam lorem ipsum, elementum id ex eget, pretium laoreet turpis. Proin eget enim a quam consectetur rhoncus. Nunc in ipsum et risus aliquam fermentum a ac massa. Cras in pretium erat. Donec tristique elit eget nisl pharetra sodales. Aenean sit amet condimentum est. Aenean in eros non elit malesuada imperdiet. Quisque sollicitudin gravida elementum. Curabitur eget dapibus felis.</p>
-
-        <p className="text-md">Donec metus nunc, pretium ut auctor quis, lacinia vitae libero. Duis aliquet justo purus, cursus consequat sem fringilla vitae. Suspendisse porttitor ullamcorper magna, et tincidunt arcu tincidunt sed. Aenean posuere justo arcu, eget pulvinar dui consectetur sit amet. Integer sed orci gravida, malesuada ipsum sit amet, sodales leo. Praesent ullamcorper pretium est, ut varius lacus. Donec et nisl convallis, mattis sapien quis, aliquet ante. Curabitur cursus augue felis, at porta orci gravida sed. Ut sagittis fringilla diam, et lacinia ligula pretium ac. Sed id urna dolor. Etiam a auctor dui, eu rutrum dolor. Maecenas est nulla, vulputate at ante non, tempor facilisis leo. Fusce ut fringilla sem. Integer interdum a enim id tempor. Fusce nec interdum dui, sit amet mollis arcu.</p>
       </main>
       <Footer />
     </>

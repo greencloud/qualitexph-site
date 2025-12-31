@@ -9,7 +9,7 @@ const industry = [
   { src: '/industries/semiconductor.png', alt: 'Semiconductor & Electronics' },
   { src: '/industries/automotive.png', alt: 'Automotive' },
   { src: '/industries/med-devices.png', alt: 'Medical Devices' },
-  { src: '/industries/eng-const.png', alt: 'Engineering/ Construction' },
+  { src: '/industries/eng-const.png', alt: 'Engineering / Construction' },
   { src: '/industries/info-tech.png', alt: 'Information Technology' },
   { src: '/industries/business-services.png', alt: 'Business Services' },
   { src: '/industries/food.png', alt: 'Food Safety' },

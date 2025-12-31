@@ -17,8 +17,8 @@ const Banner: React.FC<BannerProps> = ({ title, subtitle, imageUrl, height = 680
     <Image
       src={imageUrl}
       alt={title}
-      fill
-      className="object-cover z-10"
+      fill={true}
+      className="object-cover object-bottom z-10"
       unoptimized
       priority
     />
@@ -47,7 +47,7 @@ const Banner: React.FC<BannerProps> = ({ title, subtitle, imageUrl, height = 680
           </Link>
 
           <Link
-            href="/services" className="inline-flex items-center justify-center bg-amber-900 text-white px-7 py-2 rounded-md hover:bg-amber-950 transition-colors cursor-pointer"
+            href="/services" className="inline-flex items-center justify-center bg-gray-300 text-gray-800 px-7 py-2 rounded-md hover:bg-blue-900 hover:text-white transition-colors cursor-pointer"
           >
             Our Services
           </Link>

@@ -109,7 +109,7 @@ export default function Services() {
 
         <div className="text-center my-12 mt-20">
           <h2 className="text-4xl font-bold mb-4 mt-8 block">What's next?</h2>
-          <p className="text-lg">Are you having a hard time to decide what's in it for you? Our professional consultants are here to help you level up your organization.</p>
+          <p className="text-lg max-w-[80%] mx-auto">Not sure how ISO standards can benefit your organization? Our expert consultants make it clear, practical, and achievable&mdash;helping you strengthen compliance, improve processes, and elevate your business with confidence.</p>
           <Link
             href="/contact" className="inline-flex items-center justify-center bg-blue-800 text-white px-7 py-2 rounded-md text-2xl hover:bg-blue-900 hover:text-white transition-colors cursor-pointer mt-5"
           >
